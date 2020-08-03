@@ -14,12 +14,12 @@ export const Item=(props)=>{
 const itemStyles=StyleSheet.create({
    item:{
        padding:10,
-       display:flex,
+       display:'flex',
        flexDirection:'row',
        justifyContent:"space-between"
     },
     text:{
-        frontSize:10,
+        fontSize:30,
         color:'black'
     }
 
